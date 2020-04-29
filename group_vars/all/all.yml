@@ -1,5 +1,5 @@
 ---
-admin_password: ansible
+admin_password: P@ssword1
 code_server: true
 workshop_dns_zone: "rhdemo.io"
 s3_state: "present"

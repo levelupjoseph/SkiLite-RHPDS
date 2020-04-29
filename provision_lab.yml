@@ -23,7 +23,7 @@
         that:
           - dns_type is defined
           - dns_type in valid_dns_type
-        msg: "workshop_type must be defined and be one of: {{valid_dns_type}}"
+        msg: "dns_type must be defined and be one of: {{valid_dns_type}}"
 
     - name: make sure security workshop has password set is set to a correct value
       assert:
