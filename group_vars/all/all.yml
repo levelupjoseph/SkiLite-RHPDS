@@ -1,5 +1,5 @@
 ---
-admin_password: P@ssword1
+admin_password: levelup10!
 code_server: true
 workshop_dns_zone: "rhdemo.io"
 s3_state: "present"
@@ -9,7 +9,7 @@ populatetower: true
 website_information: ""
 dns_information: "No errors with DNS"
 callback_information: "No issue with Ansible Tower callback"
-workshop_type: ""
+workshop_type: "networking"
 dns_type: aws
 valid_dns_type:
   - aws
